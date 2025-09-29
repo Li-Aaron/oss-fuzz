@@ -81,7 +81,7 @@ def run_step_locally(temp_dir, local_fuzzbench_path, step, i, log_file):
   docker_command.extend(args)
 
   # Local runs use local changes
-  if 'https://github.com/google/oss-fuzz.git' in docker_command:
+  if 'https://github.com/Li-Aaron/oss-fuzz.git' in docker_command:
     oss_fuzz_dir = os.path.dirname(
         os.path.dirname(
             os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))

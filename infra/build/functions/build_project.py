@@ -56,7 +56,7 @@ PROJECTS_DIR = os.path.abspath(
     os.path.join(__file__, os.path.pardir, os.path.pardir, os.path.pardir,
                  os.path.pardir, 'projects'))
 
-DEFAULT_OSS_FUZZ_REPO = 'https://github.com/google/oss-fuzz.git'
+DEFAULT_OSS_FUZZ_REPO = 'https://github.com/Li-Aaron/oss-fuzz.git'
 
 # Used if build logs are uploaded to a separate place.
 LOCAL_BUILD_LOG_PATH = '/workspace/build.log'

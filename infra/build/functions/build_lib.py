@@ -486,7 +486,7 @@ def get_srcmap_step_id():
   return 'srcmap'
 
 
-def get_git_clone_step(repo_url='https://github.com/google/oss-fuzz.git',
+def get_git_clone_step(repo_url='https://github.com/Li-Aaron/oss-fuzz.git',
                        branch=None):
   """Returns the git clone step."""
   clone_step = {

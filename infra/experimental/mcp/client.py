@@ -218,7 +218,7 @@ def initialize_oss_fuzz() -> None:
   if not os.path.exists(oss_fuzz_mcp_config.BASE_OSS_FUZZ_DIR):
     logger.info('Cloning OSS-Fuzz repository...')
     subprocess.check_call(
-        f'git clone https://github.com/google/oss-fuzz.git {oss_fuzz_mcp_config.BASE_OSS_FUZZ_DIR}',
+        f'git clone https://github.com/Li-Aaron/oss-fuzz.git {oss_fuzz_mcp_config.BASE_OSS_FUZZ_DIR}',
         shell=True)
 
   os.makedirs(oss_fuzz_mcp_config.BASE_PROJECTS_DIR, exist_ok=True)
